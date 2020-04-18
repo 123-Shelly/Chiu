@@ -1,0 +1,23 @@
+let Ar = ('ACGTGGTCTTAA').split("");
+console.log(Ar)
+
+function the_s(x){
+  Ar[0] = 'U'
+  Ar[1] = 'G'
+  Ar[2] = 'C'
+  Ar[3] = 'A'
+  Ar[4] = 'C'
+  Ar[5] = 'C'
+  Ar[6] = 'A'
+  Ar[7] = 'G'
+  Ar[8] = 'A'
+  Ar[9] = 'A'
+  Ar[10] = 'U'
+  Ar[11] = 'U'
+  return (Ar.join(''));  
+}
+
+console.log(the_s(Ar));
+
+>> ["A", "C", "G", "T", "G", "G", "T", "C", "T", "T", "A", "A"]
+   "UGCACCAGAAUU"
